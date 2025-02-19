@@ -1,0 +1,18 @@
+import(graphics,ggplot2)
+
+importFrom("grDevices", "heat.colors")
+importFrom("stats", "dist", "ks.test", "runif", "t.test", "var", "var.test")
+importFrom("fields","smooth.2d")
+importFrom("hash","hash")
+importFrom("som","som")
+
+# function exports
+export("map.build")
+export("map.fitted")
+export("map.convergence")
+export("map.marginal")
+export("map.position")
+export("map.predict")
+export("map.significance")
+export("map.starburst")
+export("map.summary")
